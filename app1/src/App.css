@@ -1,0 +1,102 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primaryFont: 1rem;
+  --primaryColor: #d01c28;
+  --secondarWeight: 600;
+}
+
+li,
+a {
+  list-style: none;
+  text-decoration: none;
+}
+
+.header {
+  width: 90%;
+  padding: 20px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .nav-center ul {
+  display: flex;
+  font-size: var(--primaryFont);
+}
+.header .nav-center ul li {
+  margin-right: 10px;
+  cursor: pointer;
+}
+.header .nav-center li:last-child {
+  margin-right: 0px;
+}
+.header .nav-right button {
+  padding: 6px 16px;
+  border: none;
+  font-weight: var(--secondarWeight);
+  color: white;
+  background-color: var(--primaryColor);
+}
+.main {
+  margin: 30px auto 0;
+  width: 80%;
+}
+.main .hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main .hero-section .left {
+  width: 40%;
+}
+.main .hero-section .right {
+  width: 45%;
+}
+.main .hero-section .right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.main .hero-section .left .content h1 {
+  margin-bottom: 15px;
+  font-size: 5rem;
+  font-weight: 800;
+  line-height: 1;
+}
+.main .hero-section .left .content p {
+  font-size: var(--primaryFont);
+  font-weight: var(--secondarWeight);
+}
+.cta {
+  margin-top: 20px;
+}
+.cta button:first-child,
+.cta button:last-child {
+  margin-right: 20px;
+  padding: 6px 16px;
+  font-size: 18px;
+  border: 1px solid var(--primaryColor);
+  color: white;
+  background-color: var(--primaryColor);
+  font-weight: var(--secondarWeight);
+}
+.cta button:last-child {
+  border: 1px solid rgba(0, 0, 0, 0.555);
+  background-color: transparent;
+  color: gray;
+}
+.availability {
+  margin-top: 20px;
+}
+.availability h6 {
+  font-size: var(--primaryFont);
+  font-weight: 400;
+}
+.availability img {
+  margin: 20px 20px 0 0;
+}
