@@ -9,3 +9,6 @@ When creating a component in frameworks like React, it’s a good practice to fo
 Batching: when we have multiple useState in component it would not render multiple type but to get all useState complete then it rendor
 
 CSS modules :
+
+
+Dont read it please 😊
