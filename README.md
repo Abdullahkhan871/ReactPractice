@@ -10,5 +10,12 @@ Batching: when we have multiple useState in component it would not render multip
 
 CSS modules :
 
-
 Dont read it please 😊
+
+React router 
+BrowserRouter
+Routes
+Route path '/abot' element={component name}
+Link to='/'  
+
+![image](https://github.com/user-attachments/assets/1dca921f-1ede-43b9-94b3-f29764cd0f74)
